@@ -54,6 +54,12 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**
 
+**cd /home/pi/of_11.2/scripts/linux/debian**
+
+**yes | sudo ./install_dependencies.sh**
+
+**make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
+
 copy Lepton3.0_nano to myApps
 
 **$ cd of_11.2/apps/myApps/Lepton3.0_nano**
@@ -87,3 +93,33 @@ over_voltage=5
 **$ sudo nano /etc/dphys-swapfile**
 
 **CONF_SWAPSIZE=1024**
+
+## install OpenFrameworks
+https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
+
+**Install packages and compile openFrameworks:OF_10.1 not OF_11.2**
+
+**$ cd**
+~~wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz~~
+
+**wget https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_linuxarmv6l_release.tar.gz**
+
+**$ mkdir of_10.1**
+
+~~$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1~~
+
+**$ tar vxfz of_v0.10.1_linuxarmv6l_release.tar.gz -C of_10.1 --strip-components 1**
+
+**$ cd /home/pi/of_10.1/scripts/linux/debian**
+
+**yes | sudo ./install_dependencies.sh**
+
+**make Release -C /home/pi/of_10.1/libs/openFrameworksCompiled/project**
+
+copy Lepton3.0_nano to myApps
+
+**$ cd of_11.2/apps/myApps/Lepton3.0_nano**
+
+**$ make clean**
+
+**$ make -j4**
