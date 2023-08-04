@@ -5,5 +5,7 @@ Lepton3.0_nano &amp; Darknet_Lepton3PI_Tracker
 FLIR Lepton FS
 
 Raspberry PI 3 or 4
+
 Nvidia Jetson Nano
+
 Breakout Board for FLIR Lepton
