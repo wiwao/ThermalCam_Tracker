@@ -28,13 +28,13 @@ gpu_freq=400
 
 ![PiGPU](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/ad67c089-0f59-4c4b-9565-9fcbe56ae8bb)
 
-**GPU setting to 256**
+GPU setting to 256
 
 **$ sudo apt update**
 
 **$ sudo apt upgrade**
 
-**-Change Pi setting**
+-Change Pi setting
 - [x] spi
 - [x] ssh
 - [x] i2c
@@ -55,7 +55,7 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**
 
-**copy Lepton3.0_nano to myApps**
+copy Lepton3.0_nano to myApps
 
 **$ cd of_11.2/apps/myApps/Lepton3.0_nano**
 
