@@ -68,6 +68,17 @@ copy Lepton3.0_nano to myApps
 
 **$ make -j4**
 
+**to make run essential to add ip address of Jetson Nano :**
+
+**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.177**
+
+$ cd ~/
+
+$ nano .bashrc
+
+export DISPLAY=:0
+
+
 ## for Raspberry Pi3B
 
 **install stretch**
@@ -137,3 +148,16 @@ copy Lepton3.0_nano to myApps
 **$ make clean**
 
 **$ make -j4**
+
+**to make run essential to add ip address of Jetson Nano :**
+
+**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.177**
+
+$ cd ~/
+
+$ nano .bashrc
+
+export DISPLAY=:0
+
+## for Jetson Nano
+
