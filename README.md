@@ -103,7 +103,7 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 **$ cd**
 ~~wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz~~
 
-**wget https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_linuxarmv6l_release.tar.gz**
+**$ wget https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_linuxarmv6l_release.tar.gz**
 
 **$ mkdir of_10.1**
 
@@ -113,9 +113,9 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 
 **$ cd /home/pi/of_10.1/scripts/linux/debian**
 
-**yes | sudo ./install_dependencies.sh**
+**$ yes | sudo ./install_dependencies.sh**
 
-**make Release -C /home/pi/of_10.1/libs/openFrameworksCompiled/project**
+**$ make Release -C /home/pi/of_10.1/libs/openFrameworksCompiled/project**
 
 copy Lepton3.0_nano to myApps
 
