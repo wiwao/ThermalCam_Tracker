@@ -30,9 +30,9 @@ gpu_freq=400
 
 **GPU setting to 256**
 
-**sudo apt update**
+**$ sudo apt update**
 
-**sudo apt upgrade**
+**$ sudo apt upgrade**
 
 **change Pi setting**
 - [x] spi
@@ -41,6 +41,6 @@ gpu_freq=400
 
 or change raspi-config
 
-**reboot**
+**$ reboot**
 
 
