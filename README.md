@@ -7,6 +7,7 @@ FLIR Lepton 3.5 or FS
 
 Raspberry PI 3 or 4
 
-Nvidia Jetson Nano
+Nvidia Jetson Nano or NX or Orin Nano
 
 Breakout Board for FLIR Lepton
+https://www.switch-science.com/products/7558
