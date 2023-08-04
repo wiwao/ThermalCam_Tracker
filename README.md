@@ -25,6 +25,7 @@ arm_freq=1000
 force_turbo=1
 
 gpu_freq=400
+
 ![PiGPU](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/ad67c089-0f59-4c4b-9565-9fcbe56ae8bb)
 
 **GPU setting to 256**
