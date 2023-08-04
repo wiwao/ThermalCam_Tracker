@@ -14,3 +14,11 @@ https://www.switch-science.com/products/7558
 
 ## for Raspberry Pi
 Pi4B
+install Bullseye 32bit according officail instruction.
+
+$ sudo nano /boot/config.txt
+#uncomment to overclock the arm. 700 MHz is the default.
+over_voltage=5
+arm_freq=1000
+force_turbo=1
+gpu_freq=400
