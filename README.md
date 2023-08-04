@@ -159,5 +159,12 @@ $ nano .bashrc
 
 export DISPLAY=:0
 
-## for Jetson Nano
+## for Jetson Nano(NX and Orin Nano)
+
+install jetpak
+
+sudo apt update
+sudo apt upgrade
+reboot
+
 
