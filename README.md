@@ -55,6 +55,12 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**
 
-**copy Lepton3.0_nano to myApps and $ make clean and $ make -j4**
+**copy Lepton3.0_nano to myApps**
+
+**$ cd of_11.2/apps/myApps/Lepton3.0_nano**
+
+**$ make clean and $ make -j4**
+
+
 
 
