@@ -59,8 +59,6 @@ copy Lepton3.0_nano to myApps
 
 **$ cd of_11.2/apps/myApps/Lepton3.0_nano**
 
-**$ make clean and $ make -j4**
+**$ make clean**
 
-
-
-
+**$ make -j4**
