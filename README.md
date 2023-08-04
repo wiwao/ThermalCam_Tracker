@@ -9,8 +9,7 @@
 - Breakout Board for FLIR Lepton
 https://www.switch-science.com/products/7558
 
-## for Raspberry Pi
-**Pi4B**
+## for Raspberry Pi4B
 
 install Bullseye 32bit according officail instruction.
 
@@ -62,3 +61,6 @@ copy Lepton3.0_nano to myApps
 **$ make clean**
 
 **$ make -j4**
+
+## for Raspberry Pi4B
+
