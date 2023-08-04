@@ -62,5 +62,10 @@ copy Lepton3.0_nano to myApps
 
 **$ make -j4**
 
-## for Raspberry Pi4B
+## for Raspberry Pi3B
+
+**install stretch**
+
+https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip
+
 
