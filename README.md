@@ -68,9 +68,13 @@ copy Lepton3.0_nano to myApps
 
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip
 
+![sudo nano /boot/config.txt](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/a527315e-b7f9-4754-827a-acfa26f7370d)
 
 force_turbo=1
+
 arm_freq=1300
+
 over_voltage=5
+
 （３Bの場合は実行の際は１６MBのGPUメモリ（G）128にして
 
