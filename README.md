@@ -13,6 +13,10 @@
 
 install Bullseye 32bit according officail instruction.
 
+**$ sudo apt update**
+
+**$ sudo apt upgrade**
+
 **$ sudo nano /boot/config.txt**
 
 #uncomment to overclock the arm. 700 MHz is the default.
@@ -29,10 +33,6 @@ gpu_freq=400
 
 GPU setting to 256
 
-**$ sudo apt update**
-
-**$ sudo apt upgrade**
-
 -Change Pi setting
 - [x] spi
 - [x] ssh
@@ -48,6 +48,7 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 Install packages and compile openFrameworks:
 
 **$ cd**
+
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
 
 **$ mkdir of_11.2**
@@ -125,6 +126,7 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 **Install packages and compile openFrameworks:**
 
 **$ cd**
+
 ~~wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz~~
 
 **$ wget https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_linuxarmv6l_release.tar.gz**
