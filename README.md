@@ -7,7 +7,7 @@
 - Raspberry PI 3 or 4
 - Nvidia Jetson Nano or NX or Orin Nano
 - Breakout Board for FLIR Lepton
-  https://ctl-commerce.com/smartphone/detail.html?id=000000000042
+https://ctl-commerce.com/shopdetail/000000000042/
 
 ## for Raspberry Pi4B
 
@@ -65,7 +65,7 @@ copy Lepton3.0_nano to myApps
 
 **$ cd of_11.2/apps/myApps/Lepton3.0_nano**
 
-**$ make clean**
+**($ make clean)**
 
 **$ make -j4**
 
@@ -147,7 +147,7 @@ copy Lepton3.0_nano to myApps
 
 **$ cd of_11.2/apps/myApps/Lepton3.0_nano**
 
-**$ make clean**
+**($ make clean)**
 
 **$ make -j4**
 
