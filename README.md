@@ -7,7 +7,7 @@
 - Raspberry PI 3 or 4
 - Nvidia Jetson Nano or NX or Orin Nano
 - Breakout Board for FLIR Lepton
-https://www.switch-science.com/products/7558
+  https://ctl-commerce.com/smartphone/detail.html?id=000000000042
 
 ## for Raspberry Pi4B
 
@@ -81,7 +81,7 @@ export DISPLAY=:0
 
 ## for Raspberry Pi3B
 
-**install stretch**
+**install Stretch**
 
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip
 
