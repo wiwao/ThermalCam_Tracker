@@ -80,3 +80,4 @@ over_voltage=5
 
 **For 3B 16MB GPU memory(G) to 128**
 
+**to compile Openframeworks swapfile to 1024**
