@@ -76,5 +76,7 @@ arm_freq=1300
 
 over_voltage=5
 
+![Pi3GPU](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/a43f4954-3d57-4521-a859-8d4eb0c73aae)
+
 （３Bの場合は実行の際は１６MBのGPUメモリ（G）128にして
 
