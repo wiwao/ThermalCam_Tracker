@@ -43,4 +43,17 @@ or change raspi-config
 
 **$ reboot**
 
+## install OpenFrameworks
+https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
+
+Install packages and compile openFrameworks:
+
+**$ cd**
+wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
+
+mkdir of_11.2
+
+tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1
+myAppsにアプリをコピペしてmake cleanの跡make -j4でコンパイル
+
 
