@@ -80,4 +80,6 @@ over_voltage=5
 
 **For 3B 16MB GPU memory(G) to 128**
 
+![swapfile](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/2f9aaff4-66d4-4d61-b818-e854fb719363)
+
 **to compile Openframeworks swapfile to 1024**
