@@ -51,9 +51,10 @@ Install packages and compile openFrameworks:
 **$ cd**
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
 
-mkdir of_11.2
+**$ mkdir of_11.2**
 
-tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1
-myAppsにアプリをコピペしてmake cleanの跡make -j4でコンパイル
+**$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**
+
+**copy Lepton3.0_nano to myApps and $ make clean and $ make -j4**
 
 
