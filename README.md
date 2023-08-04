@@ -94,6 +94,19 @@ over_voltage=5
 
 **CONF_SWAPSIZE=1024**
 
+**$ sudo apt update**
+
+**$ sudo apt upgrade**
+
+-Change Pi setting
+- [x] spi
+- [x] ssh
+- [x] i2c
+
+or change raspi-config
+
+**$ reboot**
+
 ## install OpenFrameworks for Pi3B (OF_10.1 not OF_11.2)
 
 https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
