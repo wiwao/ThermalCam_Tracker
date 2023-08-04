@@ -34,9 +34,10 @@ gpu_freq=400
 **sudo apt upgrade**
 
 **change Pi setting**
-- [x]spi
-- [x]ssh
-- [x]i2c
+- [x] spi
+- [x] ssh
+- [x] i2c
 
 or change raspi-config
+
 **reboot**
