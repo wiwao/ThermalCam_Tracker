@@ -163,7 +163,7 @@ export DISPLAY=:0
 
 ## for Jetson Nano(NX and Orin Nano)
 
-**install jetpak**
+### install jetpak 4.6.1
 
 $ sudo apt update && apt upgrade
 
@@ -171,23 +171,23 @@ $ reboot
 
 ### install openframeworks
 
-**cd of_11.2/scripts/linux/ubuntu**
+cd of_11.2/scripts/linux/ubuntu
 
-**sudo ./install_dependencies.sh**
+sudo ./install_dependencies.sh
 
-**cd of_11.2/scripts/linux** 
+cd of_11.2/scripts/linux 
 
-**./compileOF.sh -j4** 
+./compileOF.sh -j4
 
 ### install swapfile
 
-**git clone https://github.com/JetsonHacksNano/installSwapfile**
+git clone https://github.com/JetsonHacksNano/installSwapfile
 
-**cd installSwapfile**
+cd installSwapfile
 
-**./installSwapfile.sh**
+./installSwapfile.sh
 
-**sudo nano /etc/fstab**
+sudo nano /etc/fstab
 
 ![図1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/8ab82647-6f55-4841-b78e-7fd5a4ade5fc)
 
