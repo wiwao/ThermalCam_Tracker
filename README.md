@@ -169,7 +169,7 @@ $ sudo apt update && apt upgrade
 
 $ reboot
 
-###install openframeworks
+### install openframeworks
 
 **cd of_11.2/scripts/linux/ubuntu**
 
@@ -179,7 +179,7 @@ $ reboot
 
 **./compileOF.sh -j4** 
 
-###install swapfile
+### install swapfile
 
 **git clone https://github.com/JetsonHacksNano/installSwapfile**
 
