@@ -163,10 +163,25 @@ export DISPLAY=:0
 
 ## for Jetson Nano(NX and Orin Nano)
 
-install jetpak
+**install jetpak**
 
-sudo apt update
-sudo apt upgrade
-reboot
+$ sudo apt update && apt upgrade
 
+$ reboot
+
+**cd of_11.2/scripts/linux/ubuntu**
+
+**sudo ./install_dependencies.sh**
+
+**cd of_11.2/scripts/linux** 
+
+**./compileOF.sh -j4** 
+
+**git clone https://github.com/JetsonHacksNano/installSwapfile**
+
+**cd installSwapfile**
+
+**./installSwapfile.sh**
+
+**sudo nano /etc/fstab**
 
