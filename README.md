@@ -167,6 +167,8 @@ export DISPLAY=:0
 
 $ sudo apt update && apt upgrade
 
+$ sudo apt install nano
+
 $ reboot
 
 ### install openframeworks
@@ -195,12 +197,50 @@ sudo nano /etc/fstab
 
 wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-8-0.sh
 
-***for Nano no need to edit sh file but for Jetson NX and Orin Nano edit OpenCV-4-8-0.sh**
+***for Nano no need to edit the sh file but for Jetson NX and Orin Nano edit OpenCV-4-8-0.shas follows;-**
 
-**-D CUDA_ARCH_BIN=5.3 \ edit to -D CUDA_ARCH_BIN=7.2 for NX or to -D CUDA_ARCH_BIN=8.7 \**
+**-D CUDA_ARCH_BIN=5.3 \ in sh file edit to -D CUDA_ARCH_BIN=7.2 for NX or to -D CUDA_ARCH_BIN=8.7 \\**
 
 sudo chmod 755 ./OpenCV-4-8-0.sh
 
 ./OpenCV-4-8-0.sh
+
+### edit .bash
+
+$ cd ~/
+
+$ nano .bashrc
+
+**add following**
+
+export PATH=/usr/local/cuda/bin:${PATH}
+
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
+
+**add shortcut**
+
+sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
+
+**install darknet**
+
+git clone https://github.com/AlexeyAB/darknet
+
+**edit makefile**
+
+GPU=1
+
+CUDNN=1
+
+CUDNN_HALF=1
+
+OPENCV=1
+
+AVX=0
+
+OPENMP=0
+
+LIBSO=1
+
+\# -gencode arch=compute_61,code=[sm_61,compute_61]
 
 
