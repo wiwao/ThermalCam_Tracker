@@ -191,3 +191,14 @@ sudo nano /etc/fstab
 
 ![図1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/8ab82647-6f55-4841-b78e-7fd5a4ade5fc)
 
+### install OpenCV
+
+wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-8-0.sh
+
+**\*for Jetson NX and Orin Nano edit OpenCV-4-8-0.sh**
+
+sudo chmod 755 ./OpenCV-4-8-0.sh
+
+./OpenCV-4-8-0.sh
+
+
