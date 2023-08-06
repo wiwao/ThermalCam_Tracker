@@ -69,6 +69,8 @@ copy Lepton3.0_nano to myApps
 
 **$ make -j4**
 
+$ cd bin
+
 **to make run essential to add ip address of Jetson Nano :**
 
 **to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.177**
@@ -150,6 +152,8 @@ copy Lepton3.0_nano to myApps
 **($ make clean)**
 
 **$ make -j4**
+
+$ cd bin
 
 **to make run essential to add ip address of Jetson Nano :**
 
@@ -261,9 +265,21 @@ $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
 $ ln -s ~/darknet/src1
 
-**edit config.make file : change 2 lines from opencv to epencv4**
+**edit config.make file**
 
-$ cd of_11.2/apps/myApps/Darknet_LEPtON3PI_Trackr/config.make
+$ cd of_11.2/apps/myApps/Darknet_LEPTON3PI_Trackr/config.make
 
+**change 2 lines from opencv to epencv4**
 
+![opencv4](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/7fb5375d-6c71-457b-9e11-f73190123135)
+
+$ cd of_11.2/apps/myApps/Darknet_LEPTON3PI_Trackr
+
+($ make clean）
+
+$ make -j4
+
+$ cd bin
+
+$ ./Darknet_LEPtON3PI_Trackr
 
