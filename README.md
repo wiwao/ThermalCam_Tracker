@@ -261,4 +261,9 @@ $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
 $ ln -s ~/darknet/src1
 
+**edit config.make file : change 2 lines from opencv to epencv4**
+
+$ cd of_11.2/apps/myApps/Darknet_LEPtON3PI_Trackr/config.make
+
+
 
