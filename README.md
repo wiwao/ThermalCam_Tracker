@@ -197,7 +197,7 @@ wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-
 
 ***for Nano no need to edit sh file but for Jetson NX and Orin Nano edit OpenCV-4-8-0.sh**
 
-*＊-D CUDA_ARCH_BIN=5.3 \ to -D CUDA_ARCH_BIN=7.2 for NX or to -D CUDA_ARCH_BIN=8.7 \ **
+**-D CUDA_ARCH_BIN=5.3 \ edit to -D CUDA_ARCH_BIN=7.2 for NX or to -D CUDA_ARCH_BIN=8.7 \**
 
 sudo chmod 755 ./OpenCV-4-8-0.sh
 
