@@ -169,6 +169,8 @@ $ sudo apt update && apt upgrade
 
 $ reboot
 
+###install openframeworks
+
 **cd of_11.2/scripts/linux/ubuntu**
 
 **sudo ./install_dependencies.sh**
@@ -177,6 +179,8 @@ $ reboot
 
 **./compileOF.sh -j4** 
 
+###install swapfile
+
 **git clone https://github.com/JetsonHacksNano/installSwapfile**
 
 **cd installSwapfile**
@@ -184,4 +188,6 @@ $ reboot
 **./installSwapfile.sh**
 
 **sudo nano /etc/fstab**
+
+![図1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/8ab82647-6f55-4841-b78e-7fd5a4ade5fc)
 
