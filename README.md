@@ -267,13 +267,13 @@ $ ln -s ~/darknet/src1
 
 ### 11. edit config.make file
 
-$ nano of_11.2/apps/myApps/Darknet_LEPTON3PI_Trackr/config.make
+$ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 ### 12. change 2 lines from opencv to epencv4
 
 ![opencv4](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/7fb5375d-6c71-457b-9e11-f73190123135)
 
-$ cd of_11.2/apps/myApps/Darknet_LEPTON3PI_Trackr
+$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr
 
 ($ make clean）
 
@@ -281,5 +281,5 @@ $ make -j4
 
 $ cd bin
 
-$ ./Darknet_LEPtON3PI_Trackr
+$ ./Darknet__LEPTON3PI_Trackr
 
