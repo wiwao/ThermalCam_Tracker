@@ -205,6 +205,8 @@ wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-
 
 **-D CUDA_ARCH_BIN=5.3 \ in sh file edit to -D CUDA_ARCH_BIN=7.2 \ for NX or to -D CUDA_ARCH_BIN=8.7 \ for Orin Nano**
 
+refer to compute capability https://developer.nvidia.com/cuda-gpus
+
 $ sudo chmod 755 ./OpenCV-4-8-0.sh
 
 $ ./OpenCV-4-8-0.sh
