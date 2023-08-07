@@ -167,7 +167,7 @@ export DISPLAY=:0
 
 ## for Jetson Nano(NX and Orin Nano)
 
-### 1.install jetpak 4.6.1
+### 1. install Jetpak 4.6.1
 
 $ sudo apt update && apt upgrade
 
@@ -175,7 +175,7 @@ $ sudo apt install nano
 
 $ reboot
 
-### 2.install openframeworks
+### 2. install openframeworks
 
 cd of_11.2/scripts/linux/ubuntu
 
@@ -185,7 +185,7 @@ cd of_11.2/scripts/linux
 
 ./compileOF.sh -j4
 
-### 3.install swapfile
+### 3. install swapfile
 
 git clone https://github.com/JetsonHacksNano/installSwapfile
 
@@ -193,11 +193,11 @@ cd installSwapfile
 
 ./installSwapfile.sh
 
-**check sudo nano /etc/fstab**
+**check /etc/fstab**
 
 ![図1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/8ab82647-6f55-4841-b78e-7fd5a4ade5fc)
 
-### 4.install OpenCV
+### 4. install OpenCV
 
 wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-8-0.sh
 
@@ -209,23 +209,23 @@ $ sudo chmod 755 ./OpenCV-4-8-0.sh
 
 $ ./OpenCV-4-8-0.sh
 
-### 5.edit .bash
+### 5. edit .bash
 
 $ cd ~/
 
 $ nano .bashrc
 
-### 6.add following
+**add following**
 
 export PATH=/usr/local/cuda/bin:${PATH}
 
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
 
-### 7.add linkfile
+### 6. add linkfile
 
 sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
 
-### 8.install darknet
+### 7. install darknet
 
 git clone https://github.com/AlexeyAB/darknet
 
@@ -253,23 +253,23 @@ ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
 
 $ make -j4
 
-### 9.add linkfile
+### 8. add linkfile
 
 ln -s ~/darknet/src ~/darknet/src1
 
-### 10.delete linkfile : src1
+### 9. delete linkfile : src1
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
-### 11.add linkfile as follows
+### 10. add linkfile as follows
 
 $ ln -s ~/darknet/src1
 
-### 12.edit config.make file
+### 11. edit config.make file
 
 $ nano of_11.2/apps/myApps/Darknet_LEPTON3PI_Trackr/config.make
 
-### 13.change 2 lines from opencv to epencv4
+### 12. change 2 lines from opencv to epencv4
 
 ![opencv4](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/7fb5375d-6c71-457b-9e11-f73190123135)
 
