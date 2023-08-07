@@ -265,6 +265,8 @@ ln -s ~/darknet/src ~/darknet/src1
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
+![appsSRC1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/043a294e-2ea5-4229-bb0f-b0590cb54c1a)
+
 ### 10. add linkfile as follows at the same directory
 
 $ ln -s ~/darknet/src1
