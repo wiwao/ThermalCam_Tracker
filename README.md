@@ -261,7 +261,7 @@ ln -s ~/darknet/src ~/darknet/src1
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
-### 10. add linkfile as follows
+### 10. add linkfile as follows at the same directory
 
 $ ln -s ~/darknet/src1
 
@@ -273,13 +273,13 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 ![opencv4](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/7fb5375d-6c71-457b-9e11-f73190123135)
 
-$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr
+**$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr**
 
 ($ make clean）
 
-$ make -j4
+**$ make -j4**
 
-$ cd bin
+**$ cd bin**
 
-$ ./Darknet__LEPTON3PI_Trackr
+**$ ./Darknet__LEPTON3PI_Trackr**
 
