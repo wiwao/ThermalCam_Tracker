@@ -261,7 +261,9 @@ $ make -j4
 
 ln -s ~/darknet/src ~/darknet/src1
 
-### 9. delete linkfile : src1
+![darknetSRC1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/6fc39d1c-8ff5-4e47-b30a-54350e5506b0)
+
+### 9. delete linkfile before replacing new src1 : src1
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
