@@ -195,7 +195,7 @@ cd installSwapfile
 
 **check /etc/fstab**
 
-![図1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/8ab82647-6f55-4841-b78e-7fd5a4ade5fc)
+![fstab](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/41e852d0-3e58-4f1c-ab7a-09b354533495)
 
 ### 4. install OpenCV
 
