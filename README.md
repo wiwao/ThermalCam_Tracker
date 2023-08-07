@@ -225,6 +225,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
 
 sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
 
+![opencv2](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/c205f58c-ec70-4cbb-a189-2f22e76a84c6)
+
 ### 7. install darknet
 
 git clone https://github.com/AlexeyAB/darknet
