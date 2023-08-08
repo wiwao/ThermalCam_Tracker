@@ -267,7 +267,7 @@ cd of_11.2/addons/
 
 git clone https://github.com/rezaali/ofxUI
 
-### 3. dwonload Darknet__LEPTON3PI_Tracker and copy to of_11.2/apps/myApps/
+### 3. Download Darknet__LEPTON3PI_Tracker and copy to of_11.2/apps/myApps/
 
 https://www.dropbox.com/scl/fo/xmnkqvt8058wihsb8aogw/h?rlkey=wkogglwupoqul1bhahl29i2rm&dl=0
 
