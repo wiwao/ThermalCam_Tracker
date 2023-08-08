@@ -90,7 +90,7 @@ export DISPLAY=:0
 
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip
 
-![sudo nano /boot/config.txt](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/a527315e-b7f9-4754-827a-acfa26f7370d)
+![sudo nano /boot/config.txt](/image/config.jpg)
 
 force_turbo=1
 
@@ -98,11 +98,11 @@ arm_freq=1300
 
 over_voltage=5
 
-![Pi3GPU](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/a43f4954-3d57-4521-a859-8d4eb0c73aae)
+![Pi3GPU](image/pigpu128.jpg)
 
 **For 3B 16MB GPU memory(G) to 128**
 
-![swapfile](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/2f9aaff4-66d4-4d61-b818-e854fb719363)
+![swapfile](image/pi3swapfile.jpg)
 
 **to compile Openframeworks swapfile to 1024**
 
@@ -161,7 +161,7 @@ $ cd bin
 
 **to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
 
-![piLepton](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/1188e0a6-3172-45f5-8097-a65b27dda274)
+![piLepton](image/piLepton.png)
 
 
 $ cd ~/
@@ -286,7 +286,7 @@ cd installSwapfile
 
 **check /etc/fstab**
 
-![fstab](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/41e852d0-3e58-4f1c-ab7a-09b354533495)
+![fstab](image/fstab.png)
 
 ### 5. install OpenCV
 
@@ -318,7 +318,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
 
 sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
 
-![opencv2](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/c205f58c-ec70-4cbb-a189-2f22e76a84c6)
+![opencv2](image/opencv2.png)
 
 ### 8. install darknet
 
@@ -352,13 +352,13 @@ $ make -j4
 
 ln -s ~/darknet/src ~/darknet/src1
 
-![darknetSRC1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/6fc39d1c-8ff5-4e47-b30a-54350e5506b0)
+![darknetSRC1](image/darknetSRC1.png)
 
-### 10. delete linkfile before replacing new src1 : src1
+### (10. delete linkfile before replacing new src1 if already src1 in src if not, next)
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
-![appsSRC1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/043a294e-2ea5-4229-bb0f-b0590cb54c1a)
+![appsSRC1](image/appsSRC1.png)
 
 ### 11. add new src1 as follows at the same directory
 
@@ -370,7 +370,7 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 ### 13. change 2 lines from opencv to epencv4
 
-![opencv4](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/7fb5375d-6c71-457b-9e11-f73190123135)
+![opencv4](image/opencv4.png)
 
 ## After run Lepton3.0_nano with Jetson nano IP address at Raspberry Pi
 
@@ -384,4 +384,4 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 **$ ./Darknet__LEPTON3PI_Trackr**
 
-![jetsonnanolepton](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/eb3a9fdd-8fc7-40a1-8dff-e538f6654bf9)
+![jetsonnanolepton](image/jetsonnanolepton.png)
