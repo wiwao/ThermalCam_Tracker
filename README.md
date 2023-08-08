@@ -197,8 +197,6 @@ sudo ./install_dependencies.sh
 
      else ifeq ($(PLATFORM_ARCH),armv7l)
 
-----------------------------
-
      else ifeq ($(PLATFORM_ARCH),aarch64)
 
 2. commentour 4 line and another 3 lines commentout as follows-
