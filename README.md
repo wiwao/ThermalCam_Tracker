@@ -197,59 +197,61 @@ sudo ./install_dependencies.sh
 
      else ifeq ($(PLATFORM_ARCH),armv7l)
 
+     to as follows;-
+
      else ifeq ($(PLATFORM_ARCH),aarch64)
 
-2. commentour 4 line and another 3 lines commentout as follows-
+3. commentour 4 line and another 3 lines commentout as follows-
 
-nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv7l/config.linuxarmv7l.default.mk
+     nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv7l/config.linuxarmv7l.default.mk
 
-#PLATFORM_CFLAGS += -march=armv7
+     #PLATFORM_CFLAGS += -march=armv7
 
-#PLATFORM_CFLAGS += -mtune=cortex-a8
+     #PLATFORM_CFLAGS += -mtune=cortex-a8
 
-#PLATFORM_CFLAGS += -mfpu=neon
+     #PLATFORM_CFLAGS += -mfpu=neon
 
-#PLATFORM_CFLAGS += -mfloat-abi=hard
+     #PLATFORM_CFLAGS += -mfloat-abi=hard
 
-PLATFORM_CFLAGS += -fPIC
+     PLATFORM_CFLAGS += -fPIC
 
-PLATFORM_CFLAGS += -ftree-vectorize
+     PLATFORM_CFLAGS += -ftree-vectorize
 
-PLATFORM_CFLAGS += -Wno-psabi
+     PLATFORM_CFLAGS += -Wno-psabi
 
-PLATFORM_CFLAGS += -pipe
+     PLATFORM_CFLAGS += -pipe
 
 ------------------------------------------
 
-#PLATFORM_PKG_CONFIG_LIBRARIES += glesv1_cm
+     #PLATFORM_PKG_CONFIG_LIBRARIES += glesv1_cm
 
-#PLATFORM_PKG_CONFIG_LIBRARIES += glesv2
+     #PLATFORM_PKG_CONFIG_LIBRARIES += glesv2
 
-#PLATFORM_PKG_CONFIG_LIBRARIES += egl
+     #PLATFORM_PKG_CONFIG_LIBRARIES += egl
 
 3. exchange KISS and TESS2 file as https://gist.github.com/jvcleave/e49c0b52085d040a5cd8a3385121cb91
 
-#Download apothecary to recompile kiss and tess2:
+     #Download apothecary to recompile kiss and tess2:
 
-git clone https://github.com/openframeworks/apothecary.git
+     git clone https://github.com/openframeworks/apothecary.git
 
-cd apothecary/apothecary/
+     cd apothecary/apothecary/
 
-./apothecary -t linux download kiss
+     ./apothecary -t linux download kiss
 
-./apothecary -t linux prepare kiss
+     ./apothecary -t linux prepare kiss
 
-./apothecary -t linux build kiss
+     ./apothecary -t linux build kiss
 
-./apothecary -t linux download tess2
+     ./apothecary -t linux download tess2
 
-./apothecary -t linux prepare tess2
+     ./apothecary -t linux prepare tess2
 
-./apothecary -t linux build tess2
+     ./apothecary -t linux build tess2
 
-$ cp apothecary/apothecary/build/kiss/lib/linux/libkiss.a of_11.2/libs/kiss/lib/linuxarmv7l/
+     $ cp apothecary/apothecary/build/kiss/lib/linux/libkiss.a of_11.2/libs/kiss/lib/linuxarmv7l/
 
-$ cp apothecary/apothecary/build/tess2_patched/build/libtess2.a of_11.2/libs/tess2/lib/linuxarmv7l/
+     $ cp apothecary/apothecary/build/tess2_patched/build/libtess2.a of_11.2/libs/tess2/lib/linuxarmv7l/
 
 **then go to following directory and run sh file as follows:-**
 
