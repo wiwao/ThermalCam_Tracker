@@ -354,7 +354,7 @@ ln -s ~/darknet/src ~/darknet/src1
 
 ![darknetSRC1](image/darknetSRC1.png)
 
-### (10. delete linkfile before replacing new src1 if already src1 in src if not, next)
+### (10. delete linkfile before replacing new src1 if already src1 in src, if not, next 11. add new src1 as follows at the same directory)
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
