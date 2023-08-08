@@ -221,7 +221,7 @@ sudo ./install_dependencies.sh
 
      PLATFORM_CFLAGS += -pipe
 
-------------------------------------------
+     **--**
 
      #PLATFORM_PKG_CONFIG_LIBRARIES += glesv1_cm
 
