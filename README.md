@@ -193,13 +193,13 @@ sudo ./install_dependencies.sh
 
 1. change to aarch64 as follows;-
 
-nano of_11.2/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk
+  nano of_11.2/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk
 
-else ifeq ($(PLATFORM_ARCH),armv7l)
+  else ifeq ($(PLATFORM_ARCH),armv7l)
 
-----------------------------vvvvvvv
+----------------------------
 
-else ifeq ($(PLATFORM_ARCH),aarch64)
+  else ifeq ($(PLATFORM_ARCH),aarch64)
 
 2. commentour 4 line and another 3 lines commentout as follows-
 
