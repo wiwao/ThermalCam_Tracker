@@ -367,7 +367,7 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 ![opencv4](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/7fb5375d-6c71-457b-9e11-f73190123135)
 
-## after run Lepton3.0_nano with Jetson nano IP address
+## After run Lepton3.0_nano with Jetson nano IP address at Raspberry Pi
 
 **$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr**
 
