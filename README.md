@@ -253,6 +253,8 @@ sudo ./install_dependencies.sh
 
      $ cp apothecary/apothecary/build/tess2_patched/build/libtess2.a of_11.2/libs/tess2/lib/linuxarmv7l/
 
+-------------------
+
 **then go to following directory and run sh file as follows:-**
 
 cd of_11.2/scripts/linux 
