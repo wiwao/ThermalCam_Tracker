@@ -29,7 +29,7 @@ force_turbo=1
 
 gpu_freq=400
 
-![PiGPU](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/ad67c089-0f59-4c4b-9565-9fcbe56ae8bb)
+![PiGPU](/image/gpu256.jpg)
 
 GPU setting to 256
 
@@ -75,7 +75,7 @@ $ cd bin
 
 **to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
 
-![piLepton](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/1188e0a6-3172-45f5-8097-a65b27dda274)
+![piLepton](image/piLepton.png)
 
 $ cd ~/
 
