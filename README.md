@@ -73,7 +73,7 @@ $ cd bin
 
 **to make run essential to add ip address of Jetson Nano :**
 
-**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.177**
+**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
 
 ![piLepton](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/1188e0a6-3172-45f5-8097-a65b27dda274)
 
@@ -159,7 +159,7 @@ $ cd bin
 
 **to make run essential to add ip address of Jetson Nano :**
 
-**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.177**
+**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
 
 ![piLepton](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/1188e0a6-3172-45f5-8097-a65b27dda274)
 
