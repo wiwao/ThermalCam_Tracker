@@ -189,12 +189,16 @@ cd of_11.2/scripts/linux/ubuntu
 
 sudo ./install_dependencies.sh
 
+--------------------------------------------
+
 1. change to aarch64 as follows;-
 
 nano of_11.2/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk
 
 else ifeq ($(PLATFORM_ARCH),armv7l)
+
 ----------------------------vvvvvvv
+
 else ifeq ($(PLATFORM_ARCH),aarch64)
 
 2. commentour 4 line and another 3 lines commentout as follows-
@@ -225,7 +229,7 @@ PLATFORM_CFLAGS += -pipe
 
 #PLATFORM_PKG_CONFIG_LIBRARIES += egl
 
-**exchange KISS and TESS2 file as https://gist.github.com/jvcleave/e49c0b52085d040a5cd8a3385121cb91**
+3. exchange KISS and TESS2 file as https://gist.github.com/jvcleave/e49c0b52085d040a5cd8a3385121cb91
 
 #Download apothecary to recompile kiss and tess2:
 
