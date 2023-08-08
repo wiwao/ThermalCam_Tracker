@@ -267,11 +267,11 @@ cd of_11.2/addons/
 
 git clone https://github.com/rezaali/ofxUI
 
-## dwonload Darknet__LEPTON3PI_Tracker and copy to of_11.2/apps/myApps/
+### 3. dwonload Darknet__LEPTON3PI_Tracker and copy to of_11.2/apps/myApps/
 
 https://www.dropbox.com/scl/fo/xmnkqvt8058wihsb8aogw/h?rlkey=wkogglwupoqul1bhahl29i2rm&dl=0
 
-### 3. install swapfile
+### 4. install swapfile
 
 git clone https://github.com/JetsonHacksNano/installSwapfile
 
@@ -283,7 +283,7 @@ cd installSwapfile
 
 ![fstab](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/41e852d0-3e58-4f1c-ab7a-09b354533495)
 
-### 4. install OpenCV
+### 5. install OpenCV
 
 wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-8-0.sh
 
@@ -297,7 +297,7 @@ $ sudo chmod 755 ./OpenCV-4-8-0.sh
 
 $ ./OpenCV-4-8-0.sh
 
-### 5. edit .bash
+### 6. edit .bash
 
 $ cd ~/
 
@@ -309,13 +309,13 @@ export PATH=/usr/local/cuda/bin:${PATH}
 
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
 
-### 6. add linkfile
+### 7. add linkfile
 
 sudo ln -s /usr/include/opencv4/opencv2 /usr/include/opencv2
 
 ![opencv2](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/c205f58c-ec70-4cbb-a189-2f22e76a84c6)
 
-### 7. install darknet
+### 8. install darknet
 
 git clone https://github.com/AlexeyAB/darknet
 
@@ -343,27 +343,27 @@ ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
 
 $ make -j4
 
-### 8. add linkfile
+### 9. add linkfile
 
 ln -s ~/darknet/src ~/darknet/src1
 
 ![darknetSRC1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/6fc39d1c-8ff5-4e47-b30a-54350e5506b0)
 
-### 9. delete linkfile before replacing new src1 : src1
+### 10. delete linkfile before replacing new src1 : src1
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/src
 
 ![appsSRC1](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/043a294e-2ea5-4229-bb0f-b0590cb54c1a)
 
-### 10. add new src1 as follows at the same directory
+### 11. add new src1 as follows at the same directory
 
 $ ln -s ~/darknet/src1
 
-### 11. edit config.make file
+### 12. edit config.make file
 
 $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
-### 12. change 2 lines from opencv to epencv4
+### 13. change 2 lines from opencv to epencv4
 
 ![opencv4](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/7fb5375d-6c71-457b-9e11-f73190123135)
 
