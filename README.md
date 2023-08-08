@@ -379,3 +379,4 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 **$ ./Darknet__LEPTON3PI_Trackr**
 
+![jetsonnanolepton](https://github.com/wiwao/ThermalCam_Tracker/assets/10741255/eb3a9fdd-8fc7-40a1-8dff-e538f6654bf9)
