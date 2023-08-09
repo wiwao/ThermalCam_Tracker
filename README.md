@@ -384,7 +384,7 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 ![opencv4](image/opencv4.png)
 
-### 14. change ofApp.cpp folloing 3 lines as per the above Raspberry Pi
+### 14. change ofApp.cpp folloing 3 lines as per the above Raspberry Pi (sshpass -p = Raspberry Pi password to control from Jetson Nano)
 
 char Pi_Lepton_Start[200]="sshpass -p pi ssh pi@raspberrypi.local export DISPLAY=:0 /home/pi/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ";
 
@@ -405,4 +405,7 @@ char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f P
 **$ ./Darknet__LEPTON3PI_Trackr**
 
 ![jetsonnanolepton](image/jetsonnano.png)
+
+# now you can click PILEPTONstart !! to run Raspberry Pi apps from Jetson.
+
 
