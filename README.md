@@ -1,7 +1,7 @@
 # ThermalCam_Tracker
 **Lepton3.0_nano &amp; Darknet_Lepton3PI_Tracker**
 
-![ThermalCamTracker](/image/thermalcamtracker.png)
+![ThermalCamTracker](image/jetsonTracker.jpeg)
 ## Required main Material
 - FLIR Lepton 3.5 or FS https://ctl-commerce.com/shopdetail/000000000044/camera/page1/order/
 - Raspberry PI 3 or 4
