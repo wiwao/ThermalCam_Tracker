@@ -75,7 +75,7 @@ $ cd bin
 
 **to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
 
-![piLepton](image/piLepton.png)
+![piLepton](image/PILepton.png)
 
 $ cd ~/
 
@@ -161,7 +161,7 @@ $ cd bin
 
 **to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
 
-![piLepton](image/piLepton.png)
+![piLepton](image/PILepton.png)
 
 
 $ cd ~/
