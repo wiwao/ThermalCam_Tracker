@@ -406,6 +406,6 @@ char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f P
 
 ![jetsonnanolepton](image/jetsonnano.png)
 
-# Now you can click `PILEPTONstart!!` or `PILEPTONstop` button to run Raspberry Pi apps from Jetson.
+# Now you can click `PILEPTONstart!!` or `PILEPTONstop` button to run or stop Raspberry Pi apps from Jetson.
 
 
