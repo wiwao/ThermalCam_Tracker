@@ -384,4 +384,4 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 **$ ./Darknet__LEPTON3PI_Trackr**
 
-![jetsonnanolepton](image/jetsonnanolepton.png)
+![jetsonnanolepton](image/jetsonnano.png)
