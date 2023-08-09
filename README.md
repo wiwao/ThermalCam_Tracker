@@ -61,9 +61,15 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
+**add ofxUI into of_11.2/addons**
+
+**cd of_11.2/addons/**
+
+**git clone https://github.com/rezaali/ofxUI**
+
 copy Lepton3.0_nano to myApps
 
-**$ cd of_11.2/apps/myApps/Lepton3.0_nano**
+**$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**
 
 **($ make clean)**
 
@@ -73,7 +79,7 @@ $ cd bin
 
 **to make run essential to add ip address of Jetson Nano :**
 
-**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
+**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano_x2　192.168.0.204**
 
 ![piLepton](image/PILepton.png)
 
@@ -147,9 +153,15 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 
 **$ make Release -C /home/pi/of_10.1/libs/openFrameworksCompiled/project**
 
+**add ofxUI into of_10.1/addons**
+
+**cd of_10.1/addons/**
+
+**git clone https://github.com/rezaali/ofxUI**
+
 copy Lepton3.0_nano to myApps
 
-**$ cd of_11.2/apps/myApps/Lepton3.0_nano**
+**$ cd of_10.1/apps/myApps/PI_Lepton3.0_nano_x2**
 
 **($ make clean)**
 
@@ -159,7 +171,7 @@ $ cd bin
 
 **to make run essential to add ip address of Jetson Nano :**
 
-**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano　192.168.0.204**
+**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano_x2　192.168.0.204**
 
 ![piLepton](image/PILepton.png)
 
@@ -372,6 +384,14 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 ![opencv4](image/opencv4.png)
 
+### 14. change ofApp.cpp folloing 3 lines as per the above Raspberry Pi
+
+char Pi_Lepton_Start[200]="sshpass -p pi ssh pi@raspberrypi.local export DISPLAY=:0 /home/pi/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ";
+
+char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";
+
+char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";
+
 ## After run Lepton3.0_nano with Jetson nano IP address at Raspberry Pi
 
 **$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr**
@@ -385,3 +405,4 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 **$ ./Darknet__LEPTON3PI_Trackr**
 
 ![jetsonnanolepton](image/jetsonnano.png)
+
