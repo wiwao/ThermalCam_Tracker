@@ -386,13 +386,15 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 ### 14. change ofApp.cpp folloing 3 lines from 1060 to 1075 as per the above Raspberry Pi settings (sshpass -p = Raspberry Pi password to control from Jetson Nano)
 
-**char Pi_Lepton_Start[200]="sshpass -p pi ssh pi@raspberrypi.local \"export DISPLAY=:0 ; /home/pi4/Desktop/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ";**
+**char Pi_Lepton_Start[200]="sshpass -p pi ssh pi@raspberrypi.local \\"export DISPLAY=:0 ; /home/pi4/Desktop/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ";**
 
 ![sshpass](image/sshpass.png)
 
 **char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";**
 
 strcat(Pi_Lepton_Start,Zav_ip);
+
+strcat(Pi_Lepton_Start,"\\" > /dev/null &");
 
 `line 1075` **char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";**
 
