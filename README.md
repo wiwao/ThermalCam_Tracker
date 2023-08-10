@@ -394,8 +394,6 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 strcat(Pi_Lepton_Start,Zav_ip);
 
-strcat(Pi_Lepton_Start,"\" > /dev/null &");
-
 `line 1075` **char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";**
 
 ## After run Lepton3.0_nano with Jetson nano IP address at Raspberry Pi
