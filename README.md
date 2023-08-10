@@ -388,6 +388,8 @@ $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
 **char Pi_Lepton_Start[200]="sshpass -p pi ssh pi@raspberrypi.local \"export DISPLAY=:0 ; /home/pi4/Desktop/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ";**
 
+![sshpass](image/sshpass.png)
+
 **char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";**
 
 strcat(Pi_Lepton_Start,Zav_ip);
