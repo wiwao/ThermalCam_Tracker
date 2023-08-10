@@ -286,7 +286,7 @@ git clone https://github.com/rezaali/ofxUI
 
 ### 3. Download Darknet__LEPTON3PI_Tracker and copy to of_11.2/apps/myApps/
 
-https://www.dropbox.com/scl/fo/jg1hw9zjr5paaoi06r96p/h?rlkey=w4srw17x2kvd9trtr5cyy3m5c&dl=0
+https://drive.google.com/drive/folders/19iYUyUTWqFToZeHzCzcuB57SWbyQwOKK?usp=sharing
 
 ### 4. install swapfile
 
