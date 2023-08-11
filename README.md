@@ -77,7 +77,7 @@ copy Lepton3.0_nano_x2 to myApps
 
 $ cd bin
 
-**to make run essential to add ip address of Jetson Nano :**
+**<ins>to make run essential to add ip address of Jetson Nano :</ins>**
 
 **to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano_x2　192.168.0.204**
 
