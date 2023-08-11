@@ -67,7 +67,7 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **git clone https://github.com/rezaali/ofxUI**
 
-copy Lepton3.0_nano to myApps
+copy Lepton3.0_nano_x2 to myApps
 
 **$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**
 
@@ -159,7 +159,7 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 
 **git clone https://github.com/rezaali/ofxUI**
 
-copy Lepton3.0_nano to myApps
+copy Lepton3.0_nano_x2 to myApps
 
 **$ cd of_10.1/apps/myApps/PI_Lepton3.0_nano_x2**
 
