@@ -61,11 +61,11 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
-**add ofxUI into of_11.2/addons**
+Add ofxUI into of_11.2/addons
 
 **cd of_11.2/addons/**
 
-**git clone https://github.com/rezaali/ofxUI**
+**copy ofxUI to addons**
 
 copy Lepton3.0_nano_x2 to myApps
 
@@ -153,11 +153,11 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 
 **$ make Release -C /home/pi/of_10.1/libs/openFrameworksCompiled/project**
 
-**add ofxUI into of_10.1/addons**
+Add ofxUI into of_10.1/addons
 
 **cd of_10.1/addons/**
 
-**git clone https://github.com/rezaali/ofxUI**
+**copy ofxUI to addons**
 
 copy Lepton3.0_nano_x2 to myApps
 
@@ -278,11 +278,11 @@ cd of_11.2/scripts/linux
 
 ./compileOF.sh -j4
 
-**add ofxUI into of_11.2/addons**
+Add ofxUI into of_11.2/addons
 
-cd of_11.2/addons/
+**cd of_11.2/addons/**
 
-git clone https://github.com/rezaali/ofxUI
+**copy ofxUI to addons**
 
 ### 3. Download Darknet__LEPTON3PI_Tracker and copy to of_11.2/apps/myApps/
 
