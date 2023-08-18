@@ -71,7 +71,7 @@ copy Lepton3.0_nano_x2 to myApps
 
 **$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**
 
-**($ make clean)**
+**$ make clean**
 
 **$ make -j4**
 
@@ -163,7 +163,7 @@ copy Lepton3.0_nano_x2 to myApps
 
 **$ cd of_10.1/apps/myApps/PI_Lepton3.0_nano_x2**
 
-**($ make clean)**
+**$ make clean**
 
 **$ make -j4**
 
@@ -400,7 +400,7 @@ strcat(Pi_Lepton_Start,"\\" > /dev/null &");
 
 **$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr**
 
-($ make clean）
+**$ make clean**
 
 **$ make -j4**
 
