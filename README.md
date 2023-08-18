@@ -182,6 +182,8 @@ $ nano .bashrc
 
 export DISPLAY=:0
 
+**if [warning] ofAppEGLWindow: init(): X11 not availble on RPI yet, using a native window instead, try one more excute again.**
+
 ## for Jetson Nano(NX and Orin Nano)
 
 ### 1. install Jetpak 4.6.1
@@ -412,4 +414,14 @@ strcat(Pi_Lepton_Start,"\\" > /dev/null &");
 
 # Now you can click `PILEPTONstart!!` or `PILEPTONstop` button to run or stop Raspberry Pi apps from Jetson.
 
+**if Raspberry Pi does not respond although your pass looks ok, please establish SSH for the first time**
 
+something like followings:-
+
+nano@nano-desktop:~$ ssh pi@raspberrypi.local
+
+The authenticity of host 'raspberrypi.local (192.168.0.182)' can't be established.
+
+ECDSA key fingerprint is SHA256:kyh3u79IbcfVBsMS0CiLJofZ/hRdx67iLfVJ+rntxxx.
+
+Are you sure you want to continue connecting (yes/no)?
