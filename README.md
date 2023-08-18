@@ -380,11 +380,9 @@ $ ln -s ~/darknet/src1
 
 $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
-### 13. change 2 lines from opencv to epencv4
+### 13. change ofApp.cpp folloing 3 lines from 1060 to 1075 as per the above Raspberry Pi settings (sshpass -p = your Raspberry Pi password to control from Jetson Nano)
 
-![opencv4](image/opencv4.png)
-
-### 14. change ofApp.cpp folloing 3 lines from 1060 to 1075 as per the above Raspberry Pi settings (sshpass -p = Raspberry Pi password to control from Jetson Nano)
+$cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/src
 
 ![sshpass](image/sshpass.png)
 
@@ -398,7 +396,7 @@ strcat(Pi_Lepton_Start,"\\" > /dev/null &");
 
 `line 1075` **char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";**
 
-## After run Lepton3.0_nano with Jetson nano IP address at Raspberry Pi
+## power on Raspberry Pi and connect the same local network as jetson(check ip config) 
 
 **$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr**
 
