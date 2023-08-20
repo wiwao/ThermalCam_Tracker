@@ -382,6 +382,10 @@ $ ln -s ~/darknet/src1
 
 $ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
 
+change 2 lines of opencv to opencv4 if required as follows;-
+
+![configmake](image/opencv4.png)
+
 ### 13. change ofApp.cpp folloing 3 lines from 1060 to 1075 as per the above Raspberry Pi settings (sshpass -p = your Raspberry Pi password to control from Jetson Nano)
 
 $cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/src
