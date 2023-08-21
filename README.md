@@ -1,5 +1,5 @@
 # ThermalCam_Tracker
-**Lepton3.0_nano &amp; Darknet_Lepton3PI_Tracker**
+**Lepton3.0_nano_x2 &amp; Darknet_Lepton3PI_Tracker**
 
 ![ThermalCamTracker](image/jetsonTracker.jpeg)
 ## Required main Material
@@ -90,7 +90,7 @@ $ nano .bashrc
 export DISPLAY=:0
 
 
-## for Raspberry Pi3B
+## for Raspberry Pi3B or 3A
 
 **install Stretch**
 
