@@ -430,4 +430,4 @@ ECDSA key fingerprint is SHA256:kyh3u79IbcfVBsMS0CiLJofZ/hRdx67iLfVJ+rntxxx.
 
 Are you sure you want to continue connecting (yes/no)?
 
-**type 'yes' and establish connnection**
+**Type 'yes' and establish connnection**
