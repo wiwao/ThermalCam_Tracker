@@ -390,9 +390,9 @@ change 2 lines of opencv to opencv4 if required as follows;-
 
 **$ sudo apt install geany(if not yet installed)**
 
-$cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/src
+$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/src
 
-open ofApp.cpp with geany and edit as follows;-
+And open ofApp.cpp with geany and edit as follows;-
 
 ![sshpass](image/sshpass.png)
 
