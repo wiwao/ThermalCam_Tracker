@@ -388,7 +388,11 @@ change 2 lines of opencv to opencv4 if required as follows;-
 
 ### 13. change ofApp.cpp folloing 3 lines from 1060 to 1075 as per the above Raspberry Pi settings (sshpass -p = your Raspberry Pi password to control from Jetson Nano)
 
+**$ sudo apt install geany(if not yet installed)**
+
 $cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/src
+
+open ofApp.cpp with geany and edit as follows;-
 
 ![sshpass](image/sshpass.png)
 
