@@ -192,6 +192,8 @@ $ sudo apt update && apt upgrade
 
 $ sudo apt install nano
 
+$ sudo apt install sshpass
+
 $ reboot
 
 ### 2. install openframeworks
