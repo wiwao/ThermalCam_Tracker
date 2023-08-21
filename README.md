@@ -406,7 +406,9 @@ strcat(Pi_Lepton_Start,Zav_ip);
 
 strcat(Pi_Lepton_Start,"\\" > /dev/null &");
 
-`line 1075` **char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";**
+`line 1075` 
+
+**char Pi_Lepton_Stop[150]="sshpass -p pi ssh pi@raspberrypi.local sudo pkill -f PI_Lepton3.0_nano_x2 > /dev/null &";**
 
 ## power on Raspberry Pi and connect the same local network as jetson(check ip config) 
 
