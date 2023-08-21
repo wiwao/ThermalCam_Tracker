@@ -392,7 +392,7 @@ change 2 lines of opencv to opencv4 if required as follows;-
 
 $ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/src
 
-And open ofApp.cpp with geany and edit as follows;-
+And open ofApp.cpp with geany and edit accorrding to your Raspberry Pi password, directory, etc., as follows;-
 
 ![sshpass](image/sshpass.png)
 
