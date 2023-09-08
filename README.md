@@ -186,6 +186,8 @@ export DISPLAY=:0
 
 ## for Jetson Nano(NX and Orin Nano)
 
+![ThermalCamTracker_manual](image/image/Thermalcam_Tracker_Manual.png)
+
 ### 1. install Jetpak 4.6.1
 
 $ sudo apt update && apt upgrade
