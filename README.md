@@ -188,6 +188,8 @@ export DISPLAY=:0
 
 ![ThermalCamTracker_manual](image/Thermalcam_Tracker_Manual.png)
 
+for the details of thermal data, please study https://takesan.hatenablog.jp/entry/2019/11/18/204609
+
 ### 1. install Jetpak 4.6.1
 
 $ sudo apt update && apt upgrade
