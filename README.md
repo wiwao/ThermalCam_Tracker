@@ -172,6 +172,8 @@ copy Lepton3.0_nano_x2 to myApps
 
 **$ make -j4**
 
+**compilation takes aout 1 hour**
+
 $ cd bin
 
 **to make run essential to add ip address of Jetson Nano :**
@@ -267,6 +269,8 @@ copy Lepton3.0_nano_x2 to myApps
 **$ make clean**
 
 **$ make -j4**
+
+**compilation takes aout 1 hour**
 
 $ cd bin
 
