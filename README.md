@@ -213,11 +213,7 @@ arm_freq=1300
 
 over_voltage=5
 
-![Pi3GPU](image/pigpu128.jpg)
-
 **For 3A 16MB GPU memory(G) to 256**
-
-![swapfile](image/pi3swapfile.jpg)
 
 **to compile Openframeworks swapfile to 1024**
 
