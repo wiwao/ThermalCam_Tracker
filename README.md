@@ -90,7 +90,7 @@ $ nano .bashrc
 export DISPLAY=:0
 
 
-## for Raspberry Pi3B or 3A
+## for Raspberry Pi3B
 
 **install Stretch**
 
@@ -183,6 +183,87 @@ $ nano .bashrc
 export DISPLAY=:0
 
 **if [warning] ofAppEGLWindow: init(): X11 not availble on RPI yet, using a native window instead, try one more excute again.**
+
+## for Raspberry Pi3A+
+
+**install Buster**
+
+Raspberry Pi imager > Raspberry PI OS(other) > Raspberry PI OS(Legacy)
+
+![Raspberry PI OS(Legacy)](/image/Pi_wifisetting.png)
+
+![sudo nano /boot/config.txt](/image/config.jpg)
+
+force_turbo=1
+
+arm_freq=1300
+
+over_voltage=5
+
+![Pi3GPU](image/pigpu128.jpg)
+
+**For 3A 16MB GPU memory(G) to 256**
+
+![swapfile](image/pi3swapfile.jpg)
+
+**to compile Openframeworks swapfile to 1024**
+
+**$ sudo nano /etc/dphys-swapfile**
+
+**CONF_SWAPSIZE=1024**
+
+**$ sudo apt update**
+
+**$ sudo apt upgrade**
+
+-Change Pi setting
+- [x] spi
+- [x] ssh
+- [x] i2c
+
+or change raspi-config
+
+**$ reboot**
+
+## install OpenFrameworks for Pi3A+ OF_11.2
+
+https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
+
+**Install packages and compile openFrameworks:**
+
+**$ cd**
+
+wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
+
+**$ mkdir of_11.2**
+
+**$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**
+
+**cd /home/pi/of_11.2/scripts/linux/debian**
+
+**yes | sudo ./install_dependencies.sh**
+
+**make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
+
+Add ofxUI into of_11.2/addons
+
+**cd of_11.2/addons/**
+
+**copy ofxUI to addons**
+
+copy Lepton3.0_nano_x2 to myApps
+
+**$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**
+
+**$ make clean**
+
+**$ make -j4**
+
+$ cd bin
+
+**<ins>To make run essential to add ip address of Jetson Nano :</ins>**
+
+**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano_x2　192.168.0.204**
 
 ## for Jetson Nano(NX and Orin Nano)
 
