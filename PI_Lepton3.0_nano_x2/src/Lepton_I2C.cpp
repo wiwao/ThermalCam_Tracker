@@ -39,7 +39,7 @@ int lepton_no(){
 		printf("Lepton No=%c%c\n",aa[6],aa[7]);
 	if (aa[6]=='7' && aa[7]=='1') return 1;  //lepton3.5
 	else if (aa[6]=='2' && aa[7]=='6') return 2; //lepton3.0
-	else return 2;
+	else return 1;
 }
 int lepton_temperature(){
 	if(!_connected)
