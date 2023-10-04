@@ -190,7 +190,11 @@ export DISPLAY=:0
 
 Raspberry Pi imager > Raspberry PI OS(other) > Raspberry PI OS(Legacy)
 
-![Raspberry PI OS(Legacy)](/image/Pi_wifisetting.png)
+![Raspberry PI OS(Legacy)](/image/BusterOS.png)
+
+**since one USB and No Lan port for Pi3A+, you better set Wifi and IP & password, etc., when you floash OS to SD card** 
+
+![wifi_ID_password_setting](/image/Pi_wifisetting.png)
 
 ![sudo nano /boot/config.txt](/image/config.jpg)
 
