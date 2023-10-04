@@ -89,7 +89,6 @@ $ nano .bashrc
 
 export DISPLAY=:0
 
-
 ## for Raspberry Pi3B
 
 **install Stretch**
@@ -97,6 +96,12 @@ export DISPLAY=:0
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip
 
 ![sudo nano /boot/config.txt](/image/config.jpg)
+
+**$ sudo apt update**
+
+**$ sudo apt upgrade**
+
+**$ sudo nano /boot/config.txt**
 
 force_turbo=1
 
@@ -196,7 +201,11 @@ Raspberry Pi imager > Raspberry PI OS(other) > Raspberry PI OS(Legacy)
 
 ![wifi_ID_password_setting](/image/Pi_wifisetting.png)
 
-![sudo nano /boot/config.txt](/image/config.jpg)
+**$ sudo apt update**
+
+**$ sudo apt upgrade**
+
+**$ sudo nano /boot/config.txt**
 
 force_turbo=1
 
@@ -268,6 +277,12 @@ $ cd bin
 **<ins>To make run essential to add ip address of Jetson Nano :</ins>**
 
 **to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano_x2　192.168.0.204**
+
+$ cd ~/
+
+$ nano .bashrc
+
+export DISPLAY=:0
 
 ## for Jetson Nano(NX and Orin Nano)
 
