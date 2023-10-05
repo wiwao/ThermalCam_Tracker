@@ -19,6 +19,8 @@ install Bullseye 32bit according officail instruction.
 
 **$ sudo nano /boot/config.txt**
 
+![screen_blankoff](image/screen_blankoff.png)
+
 #uncomment to overclock the arm. 700 MHz is the default.
 
 over_voltage=5
@@ -103,6 +105,8 @@ https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08
 
 **$ sudo nano /boot/config.txt**
 
+![screen_blankoff](image/screen_blankoff.png)
+
 force_turbo=1
 
 arm_freq=1300
@@ -182,7 +186,6 @@ $ cd bin
 
 ![piLepton](image/PILepton.png)
 
-
 $ cd ~/
 
 $ nano .bashrc
@@ -208,6 +211,8 @@ Raspberry Pi imager > Raspberry PI OS(other) > Raspberry PI OS(Legacy)
 **$ sudo apt upgrade**
 
 **$ sudo nano /boot/config.txt**
+
+![screen_blankoff](image/screen_blankoff.png)
 
 force_turbo=1
 
