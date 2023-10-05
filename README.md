@@ -176,7 +176,7 @@ copy Lepton3.0_nano_x2 to myApps
 
 **$ make -j4**
 
-**compilation takes over 6 hour**
+**compilation takes more than 6 hour**
 
 $ cd bin
 
