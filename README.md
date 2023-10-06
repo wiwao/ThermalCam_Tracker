@@ -216,9 +216,11 @@ Raspberry Pi imager > Raspberry PI OS(other) > Raspberry PI OS(Legacy)
 
 force_turbo=1
 
-arm_freq=1300
+arm_freq=1500
 
-over_voltage=5
+over_voltage=6
+
+gpu_freq=400
 
 **For 3A 16MB GPU memory(G) to 256**
 
