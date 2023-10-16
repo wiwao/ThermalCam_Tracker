@@ -91,31 +91,27 @@ $ nano .bashrc
 
 export DISPLAY=:0
 
-## for Raspberry Pi3B
+~~## for Raspberry Pi3B~~ Stretch has been unsupported by RasPI
 
-**install Stretch**
+~~**install Stretch**~~
 
-https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip
+~~https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip~~
 
-![sudo nano /boot/config.txt](/image/config.jpg)
+~~**$ sudo apt update**~~
 
-**$ sudo apt update**
+~~**$ sudo apt upgrade**~~
 
-**$ sudo apt upgrade**
+~~**$ sudo nano /boot/config.txt**~~
 
-**$ sudo nano /boot/config.txt**
+~~force_turbo=1~~
 
-![screen_blankoff](image/screen_blankoff.png)
+~~arm_freq=1300~~
 
-force_turbo=1
-
-arm_freq=1300
-
-over_voltage=5
+~~over_voltage=5~~
 
 ![Pi3GPU](image/pigpu128.jpg)
 
-**For 3B 16MB GPU memory(G) to 128**
+~~**For 3B 16MB GPU memory(G) to 128**~~
 
 ![swapfile](image/pi3swapfile.jpg)
 
@@ -136,63 +132,47 @@ over_voltage=5
 
 or change raspi-config
 
-**$ reboot**
+~~**$ reboot**~~
 
-## install OpenFrameworks for Pi3B (OF_10.1 not OF_11.2)
+~~## install OpenFrameworks for Pi3B (OF_10.1 not OF_11.2)~~
 
-https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
+~~**Install packages and compile openFrameworks:**~~
 
-**Install packages and compile openFrameworks:**
-
-**$ cd**
+~~**$ cd**~~
 
 ~~wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz~~
 
-**$ wget https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_linuxarmv6l_release.tar.gz**
+~~**$ wget https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_linuxarmv6l_release.tar.gz**~~
 
-**$ mkdir of_10.1**
+~~**$ mkdir of_10.1**~~
 
 ~~$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1~~
 
-**$ tar vxfz of_v0.10.1_linuxarmv6l_release.tar.gz -C of_10.1 --strip-components 1**
+~~**$ tar vxfz of_v0.10.1_linuxarmv6l_release.tar.gz -C of_10.1 --strip-components 1**~~
 
-**$ cd /home/pi/of_10.1/scripts/linux/debian**
+~~**$ cd /home/pi/of_10.1/scripts/linux/debian**~~
 
-**$ yes | sudo ./install_dependencies.sh**
+~~**$ yes | sudo ./install_dependencies.sh**~~
 
-**$ make Release -C /home/pi/of_10.1/libs/openFrameworksCompiled/project**
+~~**$ make Release -C /home/pi/of_10.1/libs/openFrameworksCompiled/project**~~
 
-Add ofxUI into of_10.1/addons
+~~Add ofxUI into of_10.1/addons~~
 
-**cd of_10.1/addons/**
+~~**cd of_10.1/addons/**~~
 
-**copy ofxUI to addons**
+~~**copy ofxUI to addons**~~
 
-copy Lepton3.0_nano_x2 to myApps
+~~copy Lepton3.0_nano_x2 to myApps~~
 
-**$ cd of_10.1/apps/myApps/PI_Lepton3.0_nano_x2**
+~~**$ cd of_10.1/apps/myApps/PI_Lepton3.0_nano_x2**~~
 
-**$ make clean**
+~~**$ make clean**~~
 
-**$ make -j4**
+~~**$ make -j4**~~
 
-**compilation takes more than 12 hour**
+~~$ cd bin~~
 
-$ cd bin
-
-**to make run essential to add ip address of Jetson Nano :**
-
-**to display thermal image, you can add whatever ip address for example : ./PI_Lepton3.0_nano_x2　192.168.0.204**
-
-![piLepton](image/PILepton.png)
-
-$ cd ~/
-
-$ nano .bashrc
-
-export DISPLAY=:0
-
-**if [warning] ofAppEGLWindow: init(): X11 not availble on RPI yet, using a native window instead, try one more excute again.**
+~~**if [warning] ofAppEGLWindow: init(): X11 not availble on RPI yet, using a native window instead, try one more excute again.**~~
 
 ## for Raspberry Pi3A+
 
