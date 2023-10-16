@@ -109,11 +109,7 @@ export DISPLAY=:0
 
 ~~over_voltage=5~~
 
-![Pi3GPU](image/pigpu128.jpg)
-
 ~~**For 3B 16MB GPU memory(G) to 128**~~
-
-![swapfile](image/pi3swapfile.jpg)
 
 **to compile Openframeworks swapfile to 1024**
 
