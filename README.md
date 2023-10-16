@@ -91,7 +91,7 @@ $ nano .bashrc
 
 export DISPLAY=:0
 
-~~## for Raspberry Pi3B~~ Stretch has been unsupported by RasPI
+## for Raspberry Pi3B Stretch has been unsupported by RasPI
 
 ~~**install Stretch**~~
 
