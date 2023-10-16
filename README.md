@@ -170,7 +170,7 @@ or change raspi-config
 
 ~~**if [warning] ofAppEGLWindow: init(): X11 not availble on RPI yet, using a native window instead, try one more excute again.**~~
 
-## for Raspberry Pi3A+
+## for Raspberry Pi3+
 
 **install Buster**
 
@@ -178,7 +178,7 @@ Raspberry Pi imager > Raspberry PI OS(other) > Raspberry PI OS(Legacy)
 
 ![Raspberry PI OS(Legacy)](/image/BusterOS.png)
 
-**since one USB and No Lan port for Pi3A+, you better set Wifi and IP & password, etc., when you floash OS to SD card** 
+**since one USB and No Lan port for Pi3, you better set Wifi and IP & password, etc., when you floash OS to SD card** 
 
 ![wifi_ID_password_setting](/image/Pi_wifisetting.png)
 
@@ -219,7 +219,7 @@ or change raspi-config
 
 **$ reboot**
 
-## install OpenFrameworks for Pi3A+ OF_11.2
+## install OpenFrameworks for Pi3 OF_11.2
 
 https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 
