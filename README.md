@@ -198,7 +198,7 @@ over_voltage=6
 
 gpu_freq=400
 
-**For 3A 16MB GPU memory(G) to 256**
+**For 3A 16MB GPU memory(G) to 128**
 
 **to compile Openframeworks swapfile to 1024**
 
