@@ -311,7 +311,7 @@ sudo ./install_dependencies.sh
 
      else ifeq ($(PLATFORM_ARCH),aarch64)
 
-3. commentour 4 line and another 3 lines commentout as follows-
+3. commentout 4 line and another 3 lines commentout as follows-
 
      nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv7l/config.linuxarmv7l.default.mk
 
@@ -359,8 +359,11 @@ sudo ./install_dependencies.sh
 
      ./apothecary -t linux build tess2
 
+   $cd
+
      $ cp apothecary/apothecary/build/kiss/lib/linux/libkiss.a of_11.2/libs/kiss/lib/linuxarmv7l/
 
+$cd
      $ cp apothecary/apothecary/build/tess2_patched/build/libtess2.a of_11.2/libs/tess2/lib/linuxarmv7l/
 
 -------------------
