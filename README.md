@@ -11,7 +11,9 @@ https://ctl-commerce.com/shopdetail/000000000042/
 
 ## for Raspberry Pi4B
 
-install Bullseye 32bit according officail instruction.
+install Bullseye 32bit according officail instruction.(studying)
+
+https://forum.openframeworks.cc/t/of-not-working-with-raspberry-os-bullseye/38779
 
 **$ sudo apt update**
 
