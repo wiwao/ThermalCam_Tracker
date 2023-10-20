@@ -359,11 +359,11 @@ sudo ./install_dependencies.sh
 
      ./apothecary -t linux build tess2
 
-   $cd
+     $cd
 
      $ cp apothecary/apothecary/build/kiss/lib/linux/libkiss.a of_11.2/libs/kiss/lib/linuxarmv7l/
 
-$cd
+     $cd
 
      $ cp apothecary/apothecary/build/tess2_patched/build/libtess2.a of_11.2/libs/tess2/lib/linuxarmv7l/
 
