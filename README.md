@@ -60,6 +60,8 @@ Install packages and compile openFrameworks:
 
 **$ cd**
 
+wget https://github.com/openframeworks/openFrameworks/releases/download/0.12.0/of_v0.12.0_linuxarmv6l_release.tar.gz
+
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
 
 **$ mkdir of_11.2**
