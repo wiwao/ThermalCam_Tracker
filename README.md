@@ -72,7 +72,7 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **yes | sudo ./install_dependencies.sh**
 
-**nano of_11.2/libs/openFrameworksCompiled/project/linuxarm5l/config.linuxarm6l.default.mk**
+**nano of_11.2/libs/openFrameworksCompiled/project/linuxarm6l/config.linuxarm6l.default.mk**
 
 **commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to # PLATFORM_LIBRARIES += openmaxl**
 
