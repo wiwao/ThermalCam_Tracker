@@ -84,7 +84,7 @@ copy Lepton3.0_nano_x2 to myApps
 
 **$ make clean**
 
-**$ make -j4**
+**$ make**
 
 $ cd bin
 
