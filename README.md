@@ -72,6 +72,10 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **yes | sudo ./install_dependencies.sh**
 
+**of_11.2/libs/openFrameworksCompiled/project/linuxarm5l/config.linuxarm6l.default.mk**
+
+**commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to # PLATFORM_LIBRARIES += openmaxl**
+
 **make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
 Add ofxUI into of_11.2/addons
