@@ -8,7 +8,14 @@
 - Nvidia Jetson Nano or NX or Orin Nano
 - Breakout Board for FLIR Lepton
 https://ctl-commerce.com/shopdetail/000000000042/
+- 5 inches touch display if required, add following to  /boot/config.txt
+- 
+  #display_rotate=2
 
+  #display_lcd_rotate=2
+
+  #dtoverlay=rpi-ft5406,touchscreen-inverted-x=1,touchscreen-inverted-y=1
+  
 ## for Raspberry Pi4B
 
 install Bullseye 32bit according officail instruction.(studying)
