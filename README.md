@@ -8,7 +8,7 @@
 - Nvidia Jetson Nano or NX or Orin Nano
 - Breakout Board for FLIR Lepton
 https://ctl-commerce.com/shopdetail/000000000042/
-- 5 inches touch display if required, add following to  /boot/config.txt
+- 5 inches touch display if required, add following to  /boot/config.txt and commnetout accordingly.
   
   #display_rotate=2
 
