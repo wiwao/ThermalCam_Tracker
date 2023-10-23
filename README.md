@@ -18,7 +18,7 @@ https://ctl-commerce.com/shopdetail/000000000042/
   
 ## for Raspberry Pi4B
 
-install Bullseye 32bit according officail instruction.(studying)
+install Bullseye 32bit according officail instruction.(commentout line175 of config.linuxarm6l.default.mk to # PLATFORM_LIBRARIES += openmaxl)
 
 https://forum.openframeworks.cc/t/of-not-working-with-raspberry-os-bullseye/38779
 
