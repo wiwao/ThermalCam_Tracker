@@ -479,7 +479,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 you need shrotcut icon for jetson too ?
 
-first of all, you need scrip file such as thermalcam.sh
+first of all, you need scrip file for example :`thermalcam.sh`
 
 `#!/bin/bash`  
 `set -e`  
