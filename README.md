@@ -16,7 +16,9 @@ https://ctl-commerce.com/shopdetail/000000000042/
 
 if you want shortcut icon instead of sh, you can make a desktop file like thermalcam.desktop.
 
-in the file:
+in the file:  
+(there is a space between path and script:Exec=///////PI_Lepton3.0_nano_x2 ./PI_Lepton3.0_nano_x2)  
+
 
 [Desktop Entry]  
 Type=Application  
