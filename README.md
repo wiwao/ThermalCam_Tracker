@@ -16,9 +16,33 @@ https://ctl-commerce.com/shopdetail/000000000042/
 
   #dtoverlay=rpi-ft5406,touchscreen-inverted-x=1,touchscreen-inverted-y=1
 
-if you want one click with touch panel.
+if you want shortcut icon instead of sh, you can make a desktop file like thermalcam.desktop.
 
-nano ~/.config/libfm/libfm.conf single_click=0 >>>> single_click=1
+in the file:
+
+[Desktop Entry]
+
+Type=Application
+
+Encoding= UTF-8
+
+Name=PI_Lepton3.0_nano_x2
+
+Exec=/home/pi/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ./PI_Lepton3.0_nano_x2
+
+Icon=/home/pi/Pictures/kdicon.png
+
+StartupNotify=true
+
+Terminal=true
+
+and sudo chmod -x thermalcam.desktop to permit excute.
+
+if you want one click with touch panel, it will be easy to start sh.
+
+nano ~/.config/libfm/libfm.conf 
+
+single_click=0 >>>> single_click=1
   
 ## for Raspberry Pi4B
 
