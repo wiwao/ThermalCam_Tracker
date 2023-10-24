@@ -39,6 +39,7 @@ Terminal=true
 and sudo chmod -x thermalcam.desktop to permit excute.
 
 ![icon](image/kdicon.png)
+sample : kdicon.png
 
 if you want one click with touch panel, it will be easy to start sh.
 
