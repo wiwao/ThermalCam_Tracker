@@ -38,6 +38,8 @@ Terminal=true
 
 and sudo chmod -x thermalcam.desktop to permit excute.
 
+![icon](image/kdicon.png)
+
 if you want one click with touch panel, it will be easy to start sh.
 
 nano ~/.config/libfm/libfm.conf 
