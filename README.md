@@ -91,6 +91,20 @@ Install packages and compile openFrameworks:
 
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.12.0/of_v0.12.0_linuxarmv6l_release.tar.gz
 
+$ mkdir of_12.0
+
+$ tar vxfz of_v0.12.0_linuxarmv6l_release.tar.gz -C of_12.0 --strip-components 1
+
+cd /home/pi/of_12.0/scripts/linux/debian
+
+yes | sudo ./install_dependencies.sh
+
+nano of_12.0/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk
+
+commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to #PLATFORM_LIBRARIES += openmaxl
+
+make Release -C /home/pi/of_12.0/libs/openFrameworksCompiled/project
+
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
 
 **$ mkdir of_11.2**
