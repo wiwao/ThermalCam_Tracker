@@ -22,7 +22,7 @@ in the file:
 Type=Application  
 Encoding= UTF-8  
 Name=PI_Lepton3.0_nano_x2  
-Exec=/home/pi/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2' `./PI_Lepton3.0_nano_x2  
+Exec=/home/pi/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2` `./PI_Lepton3.0_nano_x2  
 Icon=/home/pi/Pictures/kdicon.png  
 StartupNotify=true  
 Terminal=true  
