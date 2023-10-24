@@ -277,11 +277,11 @@ $ reboot
 
 https://openframeworks.cc/setup/armv7/
 
-wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv7l_release.tar.gz  
-tar -zxvf of_v0.11.2_linuxarmv7l_release.tar.gz  
-mv of_v0.11.2_linuxarmv7l_release of_11.2  
-cd of_11.2/scripts/linux/ubuntu  
-sudo ./install_dependencies.sh  
+$ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv7l_release.tar.gz  
+$ tar -zxvf of_v0.11.2_linuxarmv7l_release.tar.gz  
+$ mv of_v0.11.2_linuxarmv7l_release of_11.2  
+$ cd of_11.2/scripts/linux/ubuntu  
+$ sudo ./install_dependencies.sh  
 --------------------------------------------
 
 1. change to aarch64 as follows;-
@@ -327,14 +327,14 @@ sudo ./install_dependencies.sh
      ./apothecary -t linux build tess2  
      $cd  
      $ cp apothecary/apothecary/build/kiss/lib/linux/libkiss.a of_11.2/libs/kiss/lib/linuxarmv7l/  
-     $cd  
+     $ cd  
      $ cp apothecary/apothecary/build/tess2_patched/build/libtess2.a of_11.2/libs/tess2/lib/linuxarmv7l/  
 -------------------
 
 **then go to following directory and run sh file as follows:-**
 
-cd of_11.2/scripts/linux  
-./compileOF.sh -j4  
+$ cd of_11.2/scripts/linux  
+$ ./compileOF.sh -j4  
 
 Add ofxUI into of_11.2/addons
 
@@ -348,9 +348,9 @@ https://drive.google.com/drive/folders/19iYUyUTWqFToZeHzCzcuB57SWbyQwOKK?usp=sha
 
 ### 4. install swapfile
 
-git clone https://github.com/JetsonHacksNano/installSwapfile  
-cd installSwapfile  
-./installSwapfile.sh
+$ git clone https://github.com/JetsonHacksNano/installSwapfile  
+$ cd installSwapfile  
+$ ./installSwapfile.sh
 
 **check /etc/fstab**
 
@@ -358,7 +358,7 @@ cd installSwapfile
 
 ### 5. install OpenCV
 
-wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-8-0.sh
+$ wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-8-0.sh
 
 ***for Nano no need to edit the sh file but for Jetson NX and Orin Nano edit OpenCV-4-8-0.shas follows;-**
 
