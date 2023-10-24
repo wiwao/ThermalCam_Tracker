@@ -605,8 +605,8 @@ set -e
 `cd /home/wiwao/of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/bin`
 `./Darknet__LEPTON3PI_Tracker`
 
-![icon](image/kdicon.png)
-sample : kdicon.png
+![icon](image/WTlogoH.png)
+sample : image/WTlogoH.png
 
 thremalcam.desktop as follows;-
 
