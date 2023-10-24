@@ -590,3 +590,42 @@ ECDSA key fingerprint is SHA256:kyh3u79IbcfVBsMS0CiLJofZ/hRdx67iLfVJ+rntxxx.
 Are you sure you want to continue connecting (yes/no)?
 
 **Type 'yes' and establish SSH connnection to your Raspbbery Pi**
+
+you need shrotcut icon for jetson too ?
+
+first of all, you need scrip file such as thermalcam.sh
+
+#!/bin/bash
+
+set -e
+
+echo "Darknet__LEPTON3PI_Tracker !"
+
+echo "It will take few seconds !"
+
+# Darknet__LEPTON3PI_Tracker location
+cd /home/wiwao/of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/bin
+./Darknet__LEPTON3PI_Tracker
+
+![icon](image/kdicon.png)
+sample : kdicon.png
+
+thremalcam.desktop as follows;-
+
+[Desktop Entry]
+
+Type=Application
+
+Encoding= UTF-8
+
+Name=Darknet__LEPTON3PI_Tracker
+
+Exec=/home/wiwao/Desktop/thermalcam.sh
+
+Icon=/home/wiwao/Pictures/kdicon.png
+
+StartupNotify=true
+
+Terminal=true
+
+
