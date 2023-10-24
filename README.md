@@ -15,6 +15,10 @@ https://ctl-commerce.com/shopdetail/000000000042/
   #display_lcd_rotate=2
 
   #dtoverlay=rpi-ft5406,touchscreen-inverted-x=1,touchscreen-inverted-y=1
+
+if you want one click with touch panel.
+
+nano ~/.config/libfm/libfm.conf single_click=0 >>>> single_click=1
   
 ## for Raspberry Pi4B
 
