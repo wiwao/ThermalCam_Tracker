@@ -501,7 +501,7 @@ Type=Application
 Encoding= UTF-8  
 Name=Darknet__LEPTON3PI_Tracker  
 Exec=/home/wiwao/Desktop/thermalcam.sh  
-Icon=/home/wiwao/Pictures/kdicon.png  
+Icon=/home/wiwao/Pictures/WTlogoH.png  
 StartupNotify=true  
 Terminal=true
 
