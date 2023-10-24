@@ -595,14 +595,17 @@ you need shrotcut icon for jetson too ?
 
 first of all, you need scrip file such as thermalcam.sh
 
-#!/bin/bash
-set -e
+`#!/bin/bash`\n
+`set -e`
 
 `echo "Darknet__LEPTON3PI_Tracker !"`
+
 `echo "It will take few seconds !"`
 
 `# Darknet__LEPTON3PI_Tracker location`
+
 `cd /home/wiwao/of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/bin`
+
 `./Darknet__LEPTON3PI_Tracker`
 
 ![icon](image/WTlogoH.png)
