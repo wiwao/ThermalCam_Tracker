@@ -18,9 +18,7 @@ https://ctl-commerce.com/shopdetail/000000000042/
   
 ## for Raspberry Pi4B
 
-install Bullseye 32bit according officail instruction.(commentout line175 of config.linuxarm6l.default.mk to # PLATFORM_LIBRARIES += openmaxl)
 
-https://forum.openframeworks.cc/t/of-not-working-with-raspberry-os-bullseye/38779
 
 **$ sudo apt update**
 
@@ -74,7 +72,7 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk**
 
-**commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to # PLATFORM_LIBRARIES += openmaxl**
+**commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to #PLATFORM_LIBRARIES += openmaxl**
 
 **make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
@@ -106,15 +104,11 @@ $ nano .bashrc
 
 export DISPLAY=:0
 
-## for Raspberry Pi3B Stretch has been unsupported by RasPI
+## for Raspberry Pi3
 
-please download following image not the latest legacy image(oF not working with Raspberry OS Bullseye)
+install Bullseye 32bit according officail instruction.(commentout line175 of config.linuxarm6l.default.mk to # PLATFORM_LIBRARIES += openmaxl)
 
-https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-11-08/
-
-~~**install Stretch**~~
-
-~~https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip~~
+https://forum.openframeworks.cc/t/of-not-working-with-raspberry-os-bullseye/38779
 
 **$ sudo apt update**
 
@@ -129,12 +123,6 @@ arm_freq=1000
 force_turbo=1
 
 gpu_freq=400
-
-~~force_turbo=1~~
-
-~~arm_freq=1300~~
-
-~~over_voltage=5~~
 
 **For 3B 16MB GPU memory(G) to 128**
 
@@ -157,25 +145,23 @@ or change raspi-config
 
 **$ reboot**
 
-~~## install OpenFrameworks for Pi3B (OF_10.1 not OF_11.2)~~
-
 **Install packages and compile openFrameworks:**
 
 **$ cd**
 
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
 
-~~**$ wget https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_linuxarmv6l_release.tar.gz**~~
-
 **$ mkdir of_11.2**
 
 **$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**
 
-~~**$ tar vxfz of_v0.10.1_linuxarmv6l_release.tar.gz -C of_10.1 --strip-components 1**~~
-
 **$ cd /home/pi/of_11.2/scripts/linux/debian**
 
 **$ yes | sudo ./install_dependencies.sh**
+
+**nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk**
+
+**commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to #PLATFORM_LIBRARIES += openmaxl**
 
 **make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
