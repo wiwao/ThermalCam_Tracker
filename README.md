@@ -79,17 +79,17 @@ Install packages and compile openFrameworks:
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz  
 **$ mkdir of_11.2**  
 **$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**  
-**cd /home/pi/of_11.2/scripts/linux/debian**  
-**yes | sudo ./install_dependencies.sh**  
-**nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk**
+**$ cd /home/pi/of_11.2/scripts/linux/debian**  
+**$ yes | sudo ./install_dependencies.sh**  
+**$ nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk**
 
 `**commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to #PLATFORM_LIBRARIES += openmaxl**`
 
-**make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**  
+**$ make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**  
 
 Add ofxUI into of_11.2/addons
 
-**cd of_11.2/addons/**
+**$ cd of_11.2/addons/**
 
 **copy ofxUI to addons**
 
@@ -98,7 +98,7 @@ copy Lepton3.0_nano_x2 to myApps
 **$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**  
 **$ make clean**  
 **$ make**  
-$ cd bin
+**$ cd bin**
 
 **<ins>To make run essential to add ip address of Jetson Nano :</ins>**
 
@@ -154,15 +154,15 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 **$ cd /home/pi/of_11.2/scripts/linux/debian**  
 **$ yes | sudo ./install_dependencies.sh**
 
-**nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk**
+**$ nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk**
 
 `**commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to #PLATFORM_LIBRARIES += openmaxl**`
 
-**make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
+**$ make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
 Add ofxUI into of_11.2/addons
 
-**cd of_11.2/addons/**
+**$ cd of_11.2/addons/**
 
 **copy ofxUI to addons**
 
@@ -171,7 +171,7 @@ copy Lepton3.0_nano_x2 to myApps
 **$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**  
 **$ make clean**  
 **$ make**  
-$ cd bin
+**$ cd bin**
 
 **<ins>To make run essential to add ip address of Jetson Nano :</ins>**
 
@@ -235,13 +235,13 @@ https://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/
 wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz  
 **$ mkdir of_11.2**  
 **$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**  
-**cd /home/pi/of_11.2/scripts/linux/debian**  
-**yes | sudo ./install_dependencies.sh**  
-**make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
+**$ cd /home/pi/of_11.2/scripts/linux/debian**  
+**$ yes | sudo ./install_dependencies.sh**  
+**$ make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
 Add ofxUI into of_11.2/addons
 
-**cd of_11.2/addons/**
+**$ cd of_11.2/addons/**
 
 **copy ofxUI to addons**
 
@@ -250,7 +250,7 @@ copy Lepton3.0_nano_x2 to myApps
 **$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**  
 **$ make clean**  
 **$ make**  
-$ cd bin
+**$ cd bin**
 
 **<ins>To make run essential to add ip address of Jetson Nano :</ins>**
 
