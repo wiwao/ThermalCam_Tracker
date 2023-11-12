@@ -17,7 +17,7 @@ https://ctl-commerce.com/shopdetail/000000000042/
 if you want shortcut icon instead of sh, you can make a desktop file like thermalcam.desktop.
 
 in the file:  
-(there is a space between path and script:Exec=///////PI_Lepton3.0_nano_x2 ./PI_Lepton3.0_nano_x2 + your network IP adress)  
+(there is a space between path and script:Exec=///////PI_Lepton3.0_nano_x2 ./PI_Lepton3.0_nano_x2 + your network IP address)  
 
 
 [Desktop Entry]  
@@ -31,7 +31,7 @@ Terminal=true
 
 $ sudo chmod -x thermalcam.desktop to permit to excute.
 
-*the above exec with dammy IP adress(Thermal FPS will be lesser) or your actual network IP adress  
+*the above exec with dammy IP address(Thermal FPS will be lesser) or your actual network IP address  
 `./PI_Lepton3.0_nano_x2 192.168.0.175` <<- danny Ip address in the scrept  
 
 ![icon](image/kdicon.png)
