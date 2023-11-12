@@ -31,7 +31,7 @@ Terminal=true
 
 $ sudo chmod -x thermalcam.desktop to permit to excute.
 
-*the above exec with dammy IP adress(FPS will be lesser) or your actual network IP adress `./PI_Lepton3.0_nano_x2 192.168.0.175`
+*the above exec with dammy IP adress(Thermal FPS will be lesser) or your actual network IP adress `./PI_Lepton3.0_nano_x2 192.168.0.175` <<- danny Ip address in the scrept  
 
 ![icon](image/kdicon.png)
 sample : kdicon.png
