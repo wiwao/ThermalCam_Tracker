@@ -24,12 +24,14 @@ in the file:
 Type=Application  
 Encoding= UTF-8  
 Name=PI_Lepton3.0_nano_x2  
-Exec=/home/pi/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ./PI_Lepton3.0_nano_x2  
+Exec=/home/pi/of_11.2/apps/myApps/PI_Lepton3.0_nano_x2/bin/PI_Lepton3.0_nano_x2 ./PI_Lepton3.0_nano_x2 192.168.0.175  
 Icon=/home/pi/Pictures/kdicon.png  
 StartupNotify=true  
 Terminal=true  
 
 $ sudo chmod -x thermalcam.desktop to permit to excute.
+
+*the above exec with dammy IP adress(FPS will be lesser) or your actual network IP adress `./PI_Lepton3.0_nano_x2 192.168.0.175`
 
 ![icon](image/kdicon.png)
 sample : kdicon.png
