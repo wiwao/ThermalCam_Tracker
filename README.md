@@ -436,7 +436,7 @@ $ ln -s ~/darknet/src1
 
 ### 12. edit config.make file
 
-$ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr/config.make
+$ nano of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker/config.make
 
 change 2 lines of opencv to opencv4 if required as follows;-
 
@@ -463,11 +463,11 @@ strcat(Pi_Lepton_Start,"\\" > /dev/null &");
 
 ## power on Raspberry Pi and connect the same local network as jetson(check ip config) 
 
-**$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Trackr**  
+**$ cd of_11.2/apps/myApps/Darknet__LEPTON3PI_Tracker**  
 **$ make clean**  
 **$ make -j4**  
 **$ cd bin**  
-**$ ./Darknet__LEPTON3PI_Trackr**
+**$ ./Darknet__LEPTON3PI_Tracker**
 
 ![jetsonnanolepton](image/jetsonnano.png)
 
