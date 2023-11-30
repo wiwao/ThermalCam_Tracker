@@ -275,7 +275,8 @@ for the details of thermal data, please study https://takesan.hatenablog.jp/entr
 
 ### 1. install Jetpak 4.6.1
 
-$ sudo apt update && apt upgrade  
+$ sudo apt update  
+$ sudo apt upgrade  
 $ sudo apt install nano  
 $ sudo apt install sshpass  
 $ reboot
