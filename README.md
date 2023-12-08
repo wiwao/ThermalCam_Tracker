@@ -122,15 +122,15 @@ install Bullseye 32bit according officail instruction.
 (commentout line175 of config.linuxarm6l.default.mk to # PLATFORM_LIBRARIES += openmaxl)  
 https://forum.openframeworks.cc/t/of-not-working-with-raspberry-os-bullseye/38779
 
-**$ sudo apt update**  
-**$ sudo apt upgrade**  
+**$ sudo apt-get update --allow-releaseinfo-change**  
+**$ sudo apt-get upgrade**  
 **$ sudo nano /boot/config.txt**
 
 over_voltage=5  
 arm_freq=1000  
 force_turbo=1  
 gpu_freq=400  
-gpu_mem=256  
+gpu_mem=128  
 
 **For 3B 16MB GPU memory(G) to 128**
 
@@ -188,6 +188,12 @@ copy Lepton3.0_nano_x2 to myApps
 **$ nano .bashrc**  
 **export DISPLAY=:0**
 
+**set back swapfile to 100**
+
+**$ sudo nano /etc/dphys-swapfile**
+
+**CONF_SWAPSIZE=100**
+
 ## for Raspberry Pi3+
 
 **install Buster**  
@@ -207,7 +213,7 @@ https://ftp.jaist.ac.jp/pub/raspberrypi/raspbian/images/raspbian-2020-02-14/
 ![screen_blankoff](image/screen_blankoff.png)
 
 force_turbo=1  
-arm_freq=1500  
+arm_freq=1000  
 over_voltage=6  
 gpu_freq=400  
 gpu_mem=128  
@@ -244,6 +250,11 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 **$ tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C of_11.2 --strip-components 1**  
 **$ cd /home/pi/of_11.2/scripts/linux/debian**  
 **$ yes | sudo ./install_dependencies.sh**  
+
+**$ nano of_11.2/libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6l.default.mk**
+
+**`commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to #PLATFORM_LIBRARIES += openmaxl`**
+
 **$ make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
 Add ofxUI into of_11.2/addons
@@ -266,6 +277,12 @@ copy Lepton3.0_nano_x2 to myApps
 **$ cd ~/**  
 **$ nano .bashrc**  
 **export DISPLAY=:0**
+
+**set back swapfile to 100**
+
+**$ sudo nano /etc/dphys-swapfile**
+
+**CONF_SWAPSIZE=100**
 
 ## for Jetson Nano(NX and Orin Nano)
 
