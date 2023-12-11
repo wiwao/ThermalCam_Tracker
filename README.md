@@ -48,8 +48,8 @@ install Bullseye 32bit according officail instruction.
 (commentout line175 of config.linuxarm6l.default.mk to # PLATFORM_LIBRARIES += openmaxl)  
 https://forum.openframeworks.cc/t/of-not-working-with-raspberry-os-bullseye/38779  
 
-**$ sudo apt update**  
-**$ sudo apt upgrade**  
+**$ sudo apt-get update --allow-releaseinfo-change**   
+**$ sudo apt-get upgrade**  
 **$ sudo nano /boot/config.txt**
 
 ![screen_blankoff](image/screen_blankoff.png)
@@ -116,7 +116,7 @@ copy Lepton3.0_nano_x2 to myApps
 **$ nano .bashrc**  
 **export DISPLAY=:0**
 
-## for Raspberry Pi3
+## for Raspberry Pi3+
 
 install Bullseye 32bit according officail instruction.  
 (commentout line175 of config.linuxarm6l.default.mk to # PLATFORM_LIBRARIES += openmaxl)  
@@ -178,6 +178,13 @@ copy Lepton3.0_nano_x2 to myApps
 **$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**  
 **$ make clean**  
 **$ make**  
+
+**set back swapfile to 100**
+
+**$ sudo nano /etc/dphys-swapfile**
+
+**CONF_SWAPSIZE=100**
+
 **$ cd bin**
 
 **<ins>To make run essential to add ip address of Jetson Nano :</ins>**
@@ -186,15 +193,9 @@ copy Lepton3.0_nano_x2 to myApps
 
 **$ cd ~/**  
 **$ nano .bashrc**  
-**export DISPLAY=:0**
+**export DISPLAY=:0**  
 
-**set back swapfile to 100**
-
-**$ sudo nano /etc/dphys-swapfile**
-
-**CONF_SWAPSIZE=100**
-
-## for Raspberry Pi3+
+## for Raspberry Pi3
 
 **install Buster**  
 https://ftp.jaist.ac.jp/pub/raspberrypi/raspbian/images/raspbian-2020-02-14/  
@@ -206,8 +207,8 @@ https://ftp.jaist.ac.jp/pub/raspberrypi/raspbian/images/raspbian-2020-02-14/
 
 ![wifi_ID_password_setting](/image/Pi_wifisetting.png)
 
-**$ sudo apt update**  
-**$ sudo apt upgrade**  
+**$ sudo apt-get update --allow-releaseinfo-change**  
+**$ sudo apt-get upgrade**  
 **$ sudo nano /boot/config.txt**
 
 ![screen_blankoff](image/screen_blankoff.png)
@@ -268,7 +269,14 @@ copy Lepton3.0_nano_x2 to myApps
 **$ cd of_11.2/apps/myApps/PI_Lepton3.0_nano_x2**  
 **$ make clean**  
 **$ make**  
-**$ cd bin**
+
+**set back swapfile to 100**
+
+**$ sudo nano /etc/dphys-swapfile**
+
+**CONF_SWAPSIZE=100**  
+
+**$ cd bin**  
 
 **<ins>To make run essential to add ip address of Jetson Nano :</ins>**
 
@@ -277,12 +285,6 @@ copy Lepton3.0_nano_x2 to myApps
 **$ cd ~/**  
 **$ nano .bashrc**  
 **export DISPLAY=:0**
-
-**set back swapfile to 100**
-
-**$ sudo nano /etc/dphys-swapfile**
-
-**CONF_SWAPSIZE=100**
 
 ## for Jetson Nano(NX and Orin Nano)
 
