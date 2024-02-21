@@ -256,7 +256,7 @@ wget https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/o
 
 **`commentout line 175 :　PLATFORM_LIBRARIES += openmaxl to #PLATFORM_LIBRARIES += openmaxl`**
 
-**$ sudo apt-get install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev**   
+~~**$ sudo apt-get install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev**~~   
 
 **$ make Release -C /home/pi/of_11.2/libs/openFrameworksCompiled/project**
 
